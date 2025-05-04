@@ -98,7 +98,7 @@ const handleDataFromChild =  async (data)=>{
     // setInput("");
     
     setIsLoading(true);
-const response = await axios.post("http://localhost:1000/chat", {
+const response = await axios.post("https://mumbaihacks2024-llamamia-main-2.onrender.com/chat", {
   query: data,
   language: language.toLowerCase().slice(0,2)
 })
