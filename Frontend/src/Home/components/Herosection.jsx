@@ -43,7 +43,7 @@ const TabsDemo = () => {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 bg-gradient-to-br from-green-50 to-emerald-100">
           <div className="flex flex-col items-center text-center">
-            <h3 className="text-2xl md:text-3xl font-bold text-green-800">Plant Health Monitor</h3>
+            <h3 className="text-2xl md:text-3xl font-bold text-green-800">Crop Health Monitor</h3>
             <p className="text-sm md:text-base text-green-700 mt-2 max-w-md">
               Early detection and treatment guidance.
             </p>

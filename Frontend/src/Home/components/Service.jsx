@@ -44,7 +44,7 @@ const Service = () => {
         <ServiceItem
           image={phone}
           icon={<Camera className="text-green-500" size={28} />}
-          title="Plant Disease Detection"
+          title="Crop Disease Detection"
           description="Take a picture of your plants to quickly identify diseases and get treatment recommendations. Our advanced AI algorithms analyze the images to provide accurate diagnoses and suggest appropriate remedies."
           isReversed={false}
         />

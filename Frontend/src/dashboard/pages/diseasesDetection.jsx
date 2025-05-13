@@ -32,7 +32,7 @@ const LoadingAnimation = () => (
         </div>
       ))}
       <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 whitespace-nowrap text-emerald-600 font-medium">
-        Analyzing Plant...
+        Analyzing Crop...
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@ const MedicalImageAnalysis = () => {
           <div className="w-full relative py-4">
             <h1 className="text-2xl font-bold text-emerald-800 flex items-center justify-center gap-2">
               <Leaf className="h-6 w-6 text-emerald-600" />
-              Plant Health Analysis
+              Crop Health Analysis
             </h1>
             <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-emerald-800">
               <Select value={language} onValueChange={handleLanguageChange}>
@@ -144,7 +144,7 @@ const MedicalImageAnalysis = () => {
           <Card className="bg-white shadow-md border-emerald-100">
             <CardHeader className="text-center">
               <CardTitle className="text-emerald-700">
-                Upload Plant Image
+                Upload Crop Image
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -197,7 +197,7 @@ const MedicalImageAnalysis = () => {
                                 : "bg-emerald-500 hover:bg-emerald-600 hover:shadow-md"
                             }`}
                 >
-                  {loading ? "Analyzing..." : "Analyze Plant"}
+                  {loading ? "Analyzing..." : "Analyze Crop"}
                 </button>
 
                 {error && (
@@ -223,7 +223,7 @@ const MedicalImageAnalysis = () => {
                 <div className="flex-1 overflow-y-auto p-4 space-y-4">
                   {messages.length === 0 ? (
                     <div className="h-full flex items-center justify-center text-emerald-500">
-                      Upload a plant image to begin analysis
+                      Upload a crop image to begin analysis
                     </div>
                   ) : (
                     messages.map((message, index) => (
